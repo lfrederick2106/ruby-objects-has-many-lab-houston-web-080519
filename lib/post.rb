@@ -4,7 +4,7 @@ class Post
   
   @@all = []
   
-  def initialize
+  def initialize(name)
     @author = author
     @name = name
     @genre = genre
