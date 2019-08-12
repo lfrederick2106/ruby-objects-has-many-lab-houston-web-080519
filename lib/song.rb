@@ -16,4 +16,12 @@ class Song
   def self.all
     @@all
   end
+  
+  def artist
+    @artist
+  end
+  
+  def artist=(this_songs_artist)
+    @artist = this_songs_artist
+  end
 end
