@@ -30,8 +30,6 @@ class Post
     
   
   def author_name
-    def name
-      self.
     self.author.name
   end
   
