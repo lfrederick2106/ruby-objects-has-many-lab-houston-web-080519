@@ -10,4 +10,8 @@ class Post
     @genre = genre
   end
   
+  def author
+    @author
+  end
+  
 end
