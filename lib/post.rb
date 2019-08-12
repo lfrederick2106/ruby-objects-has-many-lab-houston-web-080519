@@ -10,6 +10,10 @@ class Post
     @genre = genre
   end
   
+  def save
+    @@all << self
+  end
+  
   def author
     @author
   end
