@@ -21,5 +21,4 @@ class Author
     name.author = self
   end
     
-  
 end
