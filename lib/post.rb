@@ -19,6 +19,10 @@ class Post
     @author
   end
   
+  def author=(this_author)
+    @author = this_author
+  end
+  
   def self.all
     @@all
   end
