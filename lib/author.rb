@@ -24,5 +24,9 @@ class Author
   def self.post_count
     Post.all.length 
   end
+  
+  def name
+    @name
+  end
     
 end
