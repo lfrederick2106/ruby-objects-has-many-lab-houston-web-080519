@@ -8,6 +8,7 @@ class Post
     @author = author
     @name = name
     @genre = genre
+    save
   end
   
   def save
