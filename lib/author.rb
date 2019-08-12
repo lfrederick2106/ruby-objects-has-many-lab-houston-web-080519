@@ -34,8 +34,8 @@ class Author
     @name
   end
   
-  def self.name
-    @name
-  end
+  # def self.name
+  #   @name
+  # end
     
 end
