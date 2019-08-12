@@ -7,7 +7,6 @@ class Post
   def initialize(title)
     @author = author
     @title = title
-    # @genre = genre
     save
   end
   
