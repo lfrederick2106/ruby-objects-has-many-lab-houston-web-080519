@@ -6,4 +6,8 @@ class Author
     @name = name
   end
   
+  def posts 
+    self.posts.all (| post | Author.post == self)
+  end
+  
 end
