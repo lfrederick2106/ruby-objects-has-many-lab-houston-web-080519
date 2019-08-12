@@ -26,10 +26,12 @@ class Post
     @@all
   end
   
-  def name
+  # def name
     
   
   def author_name
+    def name
+      self.
     self.author.name
   end
   
